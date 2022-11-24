@@ -1157,7 +1157,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
 } */
 
 
-.portfolio-title {
+.portfolio-card__title {
         width: 322px;
   
         color: var(--title-text-color);
@@ -1170,7 +1170,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
     }
        
 
-.portfolio-text {
+.portfolio-card__product {
     margin-top: 4px;
        
         color: var(--main-text-color);
@@ -1195,7 +1195,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
             height: auto;
         }
 
-.portfolio-text-title-item {
+.portfolio-card__headlines {
     padding: 20px 24px;
 
     border-left: 1px solid var(--second-border-color);
@@ -1212,7 +1212,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
  }
 
  
-.portfolio-list-item {
+.portfolio-list__item {
     width: 370px;
     background-color: var(--background-color);
    
@@ -1225,23 +1225,23 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
    
  }
 
- .portfolio-list-item:hover,
- .portfolio-list-item:focus {
+ .portfolio-list__item:hover,
+ .portfolio-list__item:focus {
     border: var(--second-border-color);
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
         0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
  }
  
- .portfolio-card:hover .card-description,
- .portfolio-card:focus .card-description {
+ .portfolio-card:hover .portfolio-card__description,
+ .portfolio-card:focus .portfolio-card__description {
     transform: translateY(0);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
     0px 4px 4px rgba(0, 0, 0, 0.06), 
     1px 4px 6px rgba(0, 0, 0, 0.16);
  }
 
- .card-thumb {
+ .portfolio-card__thumb {
     position: relative;
     overflow: hidden;
  }
@@ -1265,7 +1265,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     opacity: 0;
  } */
 
- .card-description {
+ .portfolio-card__description {
     position: absolute;
     top: 0;
     left: 0;
@@ -1278,7 +1278,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     transition: transform var(--transition-duration) 
     var(--transition-timing-function);
  }
- .card-thumb .card-description-text {
+ .portfolio-card__thumb .portfolio-card__text {
     display: inline-block;
     margin: 63px 24px;
     font-weight: 400;
