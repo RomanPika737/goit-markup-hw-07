@@ -8,7 +8,7 @@
     /* margin-left: 297px; */
     padding-bottom: 16px;
     margin-bottom: 50px;
-}
+
 
 
 
@@ -44,8 +44,8 @@
         $transition-timing-function;
 }
 
-.buttons__button-filter:hover,
-.buttons__button-filter:focus {
+&__button-filter:hover,
+&__button-filter:focus {
     color: $background-color;
     background-color: $accent-color;
     box-shadow: 
@@ -57,4 +57,5 @@
 
 .buttons__item+.buttons__item {
     margin-left: 8px;
+}
 }

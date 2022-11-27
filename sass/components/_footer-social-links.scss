@@ -1,3 +1,4 @@
+.footer {
 .footer__social-text {
     display: block;
     margin-bottom: 20px;
@@ -49,8 +50,9 @@
     display: block;
 }
 
-.footer__media-link:hover,
-.footer__media-link:focus {
+&__media-link:hover,
+&__media-link:focus {
     background-color: $accent-color;
     /* border-radius: 50%; */
+}
 }

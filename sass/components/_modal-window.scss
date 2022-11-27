@@ -53,7 +53,7 @@
      0px 1px 1px rgba(0, 0, 0, 0.14),
      0px 2px 1px rgba(0, 0, 0, 0.2);
      border-radius: 4px;
- }
+ 
 
  .modal__button {
      position: absolute;
@@ -82,10 +82,13 @@
      $transition-timing-function;
  }
 
- .modal__button:hover .modal__icon,
- .modal__button:focus .modal__icon {
+ &__button:hover .modal__icon,
+ &__button:focus .modal__icon {
      fill: $accent-color;
  }
+}
+
+.modal-form {
 
  .modal-form__title {
      font-weight: 700;
@@ -181,16 +184,16 @@
      color: rgba(117, 117, 117, 0.5);
  }
 
- .modal-form__input:hover + .modal-form__input-svg,
- .modal-form__input:focus + .modal-form__input-svg {
+ &__input:hover + &__input-svg,
+ &__input:focus + &__input-svg {
      fill: $accent-color;
      outline: none;
  }
 
- .modal-form__input:hover,
- .modal-form__textarea:hover,
- .modal-form__input:focus,
- .modal-form__textarea:focus {
+ &__input:hover,
+ &__textarea:hover,
+ &__input:focus,
+ &__textarea:focus {
      border-color: $accent-color;
      outline: none;
 
@@ -206,6 +209,7 @@
      display: flex;
      align-items: center;
  }
+
 
 
 
@@ -257,3 +261,4 @@
      text-underline-position: under;
      color: $accent-color;
  }
+}

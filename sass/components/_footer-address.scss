@@ -26,11 +26,12 @@
     color 
     $transition-duration 
     $transition-timing-function;
-}
 
-.footer__link:hover,
-.footer__link:focus {
+
+&:hover,
+&:focus {
     color: $accent-color;
+}
 }
 
 .map {
@@ -46,9 +47,10 @@
     color 
     $transition-duration 
     $transition-timing-function;
-}
 
-.map:hover,
-.map:focus {
+
+&:hover,
+&:focus {
     color: $accent-color;
+}
 }

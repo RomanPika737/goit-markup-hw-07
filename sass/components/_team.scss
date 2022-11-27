@@ -2,7 +2,7 @@
     padding-bottom: 94px;
 
     background: $third-background-color;
-}
+
 
 .team__title {
     margin-bottom: 50px;
@@ -102,9 +102,10 @@
     display: block;
 }
 
-.team__link:hover,
-.team__link:focus {
+&__link:hover,
+&__link:focus {
     fill: $background-color;
     background-color: $accent-color;
     border-radius: 50%;
+}
 }
